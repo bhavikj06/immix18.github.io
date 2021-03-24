@@ -1,0 +1,85 @@
+/*===================
+                 Basics
+ ===================*/
+ body {
+    font-family: 'Righteous', 'Poppins','Varela Round', sans-serif, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    overflow-x:auto;
+    margin: 0;
+}
+
+html,body {
+    background-color: #dddddd;
+    background: url("../img/party3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x:auto;
+}
+
+/*=====================
+                   Structure
+ ======================*/
+.body-container {
+    display: flex;
+    margin: 0 0 0 0;
+    width: 100%;
+    font-family: Righteous;
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+}
+.main-container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+    margin: 110px 0 0 0;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.page-heading {
+    text-align: center;
+    background-color:#D85A7FFF;
+    font-family: Righteous;
+    font-size: 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.page-heading h1 {
+    margin: 0 0 0 0 ;
+}
+
+.bus-info {
+    display: flex;
+    justify-content:center;
+}
+
+table.tableizer-table {
+    font-size: 12px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #CCC; 
+    font-family: Righteous, Arial, Helvetica, sans-serif;
+} 
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    text-align: center;
+    border: 1px solid #CCC;
+}
+.tableizer-table th {
+    background-color: #c12f5a; 
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-headings {
+    text-align: center;
+}

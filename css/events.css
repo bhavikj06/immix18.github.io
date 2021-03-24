@@ -1,0 +1,170 @@
+/*===================
+                 Basics
+ ===================*/
+body {
+    font-family: 'Righteous', 'Poppins','Varela Round', sans-serif, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+html,body {
+    background-color: #dddddd;
+    background-image: url("../img/party3.jpg");
+    background-size: cover;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*=====================
+                   Structure
+ ======================*/
+.body-container {
+    display: flex;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+}
+.main-container {
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    margin: 110px 0 0 0;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.page-heading {
+    background-color: #D85A7FFF;
+    font-family: Righteous;
+    font-size: 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.page-heading h1 {
+    margin: 0 0 0 0 ;
+
+}
+.page-heading1 {
+    font-family: Righteous;
+    font-size: 15px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: (0,0,0,0.5);
+    text-align: center;
+}
+.page-heading1 h1 {
+    margin: 0 0 0 0 ;
+}
+
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.event-container .event-name {
+    color: #fff;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.event-container .event-name  .rules {
+    background-color: #D85A7FFF;
+    padding: 5px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #333;
+    transition: 1s;
+}
+.event-container .event-name  .rules:hover{
+    background-color: #c12f5a;
+    color: #fff;
+    transition: 1s;
+}
+.event-container .event-name  .names {
+    background-color: #ED2B33FF;
+    padding: 5px;
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    transition: 1s;
+
+}
+.event-container .event-name  .names:hover{
+    background: #c7070f;
+}
+
+/*======================
+                  Rule Box
+ ======================*/
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: scroll;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+.rules-content {
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.7s;
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+
+}
+
+.rule-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.rule-heading .closebtn{
+    text-align: center;
+    cursor:pointer;
+    background-color:#D85A7FFF;
+    padding: 3px 7px 3px 7px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    transition: 1s;
+    color: #fff;
+}
+
+.rule-heading .closebtn:hover{
+    background-color: #c12f5a;
+}
+.all-rules {
+    text-align: left;
+}
+
+.core-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.core-information h4 {
+    margin: 10px;
+}
+
